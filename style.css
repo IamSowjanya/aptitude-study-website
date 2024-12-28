@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Quantitative Aptitude Section */
+#quantitative {
+    background-color: #f0f8ff;
+    /* Light blue */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#quantitative h2 {
+    color: #0073e6;
+    /* Deep blue */
+    margin-bottom: 10px;
+}
+
+#quantitative ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quantitative ul li {
+    margin: 10px 0;
+}
+
+#quantitative ul li a {
+    color: #0073e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#quantitative ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e6f7ff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Quantitative Aptitude Section - Percentages */
+#percentages {
+    background-color: #e6f7ff;
+    /* Light blue background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#percentages h3 {
+    color: #0073e6;
+    /* Deep blue */
+    margin-bottom: 10px;
+}
+
+#percentages h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#percentages ul {
+    list-style: none;
+    padding: 0;
+}
+
+#percentages ul li {
+    margin: 5px 0;
+}
+
+#percentages code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+#percentage-calculator button {
+    transition: background-color 0.3s ease;
+}
+
+#percentage-calculator button:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Quantitative Aptitude Section - Ratios and Proportions */
+#ratios {
+    background-color: #e0f7fa;
+    /* Light cyan background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ratios h3 {
+    color: #0073e6;
+    /* Deep blue */
+    margin-bottom: 10px;
+}
+
+#ratios h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#ratios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#ratios ul li {
+    margin: 5px 0;
+}
+
+#ratios code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Quantitative Aptitude Section - Time and Work */
+#time-work {
+    background-color: #f1f8e9;
+    /* Light green background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#time-work h3 {
+    color: #0073e6;
+    /* Deep blue */
+    margin-bottom: 10px;
+}
+
+#time-work h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#time-work ul {
+    list-style: none;
+    padding: 0;
+}
+
+#time-work ul li {
+    margin: 5px 0;
+}
+
+#time-work code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Quantitative Aptitude Section - Simple and Compound Interest */
+#interest {
+    background-color: #fff3e6;
+    /* Light peach background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#interest h3 {
+    color: #0073e6;
+    /* Deep blue */
+    margin-bottom: 10px;
+}
+
+#interest h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#interest ul {
+    list-style: none;
+    padding: 0;
+}
+
+#interest ul li {
+    margin: 5px 0;
+}
+
+#interest code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
